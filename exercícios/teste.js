@@ -1,4 +1,9 @@
-window.onclick = function clicar(){
-    var b=window.document.getElementById("a")
-    b.style.backgroundColor="red"
+var agora=new Date()
+var hora=agora.getHours()
+
+if (hora<18){
+    window.onload = function mudar(){
+        b=document.getElementById("a")
+        b.style.backgroundColor="Yellow"
     }
+}
