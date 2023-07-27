@@ -42,11 +42,5 @@ function fetchResponse() {
 
 $("#chatbox").on("input", handleInput);
 
-$(document).ready(function() {
-  fetchResponse();
-});
 
-from flask import Flask, request
-
-app = Flask(__name__)
 
