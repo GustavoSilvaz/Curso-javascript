@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+    <style> 
+    body{
+        color: rgb(255, 255, 255);
+        background-color: blue;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    </style>
+</head>
+<body>
+    <h1>iniciando estudos com <strong>dom</strong> em Javascript</h1>
+    <p>aqui vai o resultado</p>
+    <div>Clique em mim</div>
+    <script>
+        var corpo=window.document.body
+        var p1=window.document.getElementsByTagName("h1")[0]
+        corpo.style.backgroundColor="black"
+        p1.style.color="pink"
+
+        (p1.innerText)
+    </script>
+</body>
+</html>
