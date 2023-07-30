@@ -10,7 +10,7 @@ if (now<18){
     c.innerHTML=`Tenha uma boa tarde`
 } else if (now<24) {
     a.innerHTML=`Agora são exatamente${now} horas`
-    b.innerHTML=`<img src="img/<img src="img/images.jpeg" alt="">" alt="">`
+    b.innerHTML=`<img src="img/images.jpeg" alt="">`
     c.innerHTML=`Tenha uma boa noite`
 } else if (now<12){
     a.innerHTML=`Agora são exatamente${now} horas`
